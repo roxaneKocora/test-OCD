@@ -1,12 +1,14 @@
 
-Explication des données
-#Cas 0 :
-Je suis OMIYALE Esaie, étudiant en troisième année de licence informatique parcours MIAGE ( Méthode Informatique
-Appliquée à la Gestion) à l'université de Rennes.
-Pour pouvoir compiler ce projet il vous faire :
+####  Details de réalisation  
 
+
+Je suis Roxane KOCORA, étudiante en troisième année de licence informatique parcours MIAGE ( Méthode Informatique Appliquée à la Gestion) à l'université de Rennes.
+Pour pouvoir compiler ce projet suivez les étapes suivantes :
+- composer install
+- php artisan key:generate
+- copier le .env.example dans .env avec la commande cp .env.example .env 
 - php artisan migration : pour créer les différentes tables ( Contributions, Invitations et les autres tables qui sont dans le data.sql)
-- Ensuite exporter le fichier data.sql joint à ce projet
+- Ensuite importer le fichier data.sql joint à ce projet
 
 
 #Premier cas :  Propositions de Modifications
@@ -28,6 +30,8 @@ Mise à jour des votes : Les utilisateurs peuvent accepter ou rejeter une propos
 #Deuxième cas : Validation des Modifications
 
 Ce cas ci se passe en deux phases:
+
+
 A) Les votes
 Un utilisateur connecté à la possiblité de confirmer ou de rejeter une demande de modification ou une nouvelle relation.
 
